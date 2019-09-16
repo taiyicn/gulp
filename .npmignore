@@ -1,1 +1,19 @@
+# 目录
 src/
+node_modules/
+test/
+dist/
+
+# 忽略文件
+.gitignore
+.npmignore
+yarn.lock
+package-lock.json
+
+# 格式文件
+.prettierrc.json
+.eslintrc.json
+
+.travis.yml
+tsconfig.json
+

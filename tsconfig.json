@@ -1,18 +1,19 @@
 {
-	"compilerOptions": {
-		"target": "es2017",
-		"module": "commonjs",
-		"removeComments": true,
-		"preserveConstEnums": true,
-		"sourceMap": false,
-		"resolveJsonModule": true,
-		"experimentalDecorators": true,
-		"declaration": true,
-		"strict": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"outDir": "./dist"
-	},
-	"include": ["src/*.ts"],
-	"exclude": ["node_modules/**"]
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "outDir": "./lib"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules/**", "dist/**"]
 }

@@ -151,7 +151,7 @@ export function series(...tasks: Task[]): PromiseTask {
 }
 
 /**
- * 并发执行任务 
+ * 并发执行任务
  *
  * @export
  * @param {...Task[]} tasks
@@ -164,7 +164,6 @@ export function parallel(...tasks: Task[]): PromiseTask {
 	result._tasks = tasks;
 	return result;
 }
-
 
 /**
  * 定义一个任务，但不立即执行
